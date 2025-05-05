@@ -1,0 +1,39 @@
+.single-post-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9fb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  
+  .single-post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .single-post-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
+  }
+  
+  .single-post-date {
+    font-size: 0.95rem;
+    color: #7f8c8d;
+  }
+  
+  .single-post-body {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  .post-not-found {
+    text-align: center;
+    color: #e74c3c;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  }
+  

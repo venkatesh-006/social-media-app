@@ -1,0 +1,81 @@
+/* Container styling */
+.new-post-section {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0;
+  }
+  
+  /* Heading */
+  .new-post-section h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  /* Form layout */
+  .new-post {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Labels */
+  .new-post label {
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  /* Input field */
+  #posttitle {
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.2s ease;
+  }
+  
+  #posttitle:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Textarea field */
+  #postbody {
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    min-height: 120px;
+    resize: vertical;
+    transition: border-color 0.2s ease;
+  }
+  
+  #postbody:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Submit button */
+  .new-post button {
+    align-self: flex-end;
+    padding: 0.7rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .new-post button:hover {
+    background-color: #0056b3;
+  }
+
