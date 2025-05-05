@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/venkatesh-006/social-media-app/static/css/main.ea135918.css",
+    "main.js": "/venkatesh-006/social-media-app/static/js/main.9399197f.js",
+    "index.html": "/venkatesh-006/social-media-app/index.html",
+    "main.ea135918.css.map": "/venkatesh-006/social-media-app/static/css/main.ea135918.css.map",
+    "main.9399197f.js.map": "/venkatesh-006/social-media-app/static/js/main.9399197f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea135918.css",
+    "static/js/main.9399197f.js"
+  ]
+}
